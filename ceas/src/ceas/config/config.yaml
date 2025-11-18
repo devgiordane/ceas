@@ -1,0 +1,7 @@
+tasks:
+  - ceas.tasks.example_task.fetch_data_task
+  - ceas.tasks.example_task.send_data_task
+  - ceas.tasks.http_request_task.send_http_request_task
+  - ceas.tasks.custom_http_example.hourly_weather_check
+  - ceas.tasks.custom_http_example.send_status_update
+  - ceas.tasks.custom_http_example.send_daily_report
